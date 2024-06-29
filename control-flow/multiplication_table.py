@@ -1,3 +1,4 @@
-number = input("Enter a number to see its multiplication table:")
-for x in range(1,11):
- print(number, "*", x,"=", int(number)*x)
+X = input("Enter a number to see its multiplication table:")
+for Y in range(1,11):
+ Z = int(X)*Y
+ print(X, "*", Y,"=",Z)
