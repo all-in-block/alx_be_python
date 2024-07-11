@@ -19,6 +19,6 @@ def main():
          else:
             print("choose C or F")
         except ValueError:
-           print("enter a valid temperature")
+           print("Invalid temperature. Please enter a numeric value.")
 
 main()
